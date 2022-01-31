@@ -3,8 +3,10 @@ body {
     background: -webkit-linear-gradient(120deg, #2a9688c2 0%, rgba(1, 15, 48, 0.815) 90%), url("../Headers/fabio-oyXis2kALVg-unsplash.jpg");
     background: linear-gradient(120deg, #2a9688 0%, rgba(1, 15, 48, 0.809) 90%), url("../Headers/pixelated.jpg"); /* The least supported option. */
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
 
 .navlinks a {
     margin-right: 20px;

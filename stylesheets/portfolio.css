@@ -215,7 +215,8 @@ button:hover {
 }
 
 button:focus {
-  color: #08c99f;
+  background-color: #08c99f;
+  color: white;
 }
 
 /* Style the Image Used to Trigger the Modal */
@@ -316,3 +317,5 @@ button:focus {
 i {
   font-size: 2rem;
 }
+
+

@@ -195,3 +195,18 @@ showAll.addEventListener('click', function() {
 
 
 // Modals for portfolio projects //
+const focusA = document.getElementById('focusa');
+const overlayA = document.getElementById('overlaya');
+const modal1 = document.getElementById('calculator-modal');
+
+focusA.addEventListener('focus', function() {
+    overlayA.focus();
+})
+
+if(document.activeElement === "overlayA") {
+    document.addEventListener('keydown', function(e) {
+      if(e.code === "Enter") {
+          modal1.style.display = "block";
+      }  
+    })
+}
