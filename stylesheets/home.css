@@ -1,0 +1,106 @@
+body {
+    background: rgb(7, 29, 58);  /* fallback colour. Make sure this is just one solid colour. */
+    background: -webkit-linear-gradient(120deg, #2a9688c2 0%, rgba(1, 15, 48, 0.815) 90%), url("../Headers/fabio-oyXis2kALVg-unsplash.jpg");
+    background: linear-gradient(120deg, #2a9688 0%, rgba(1, 15, 48, 0.809) 90%), url("../Headers/pixelated.jpg"); /* The least supported option. */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navlinks a {
+    margin-right: 20px;
+    display: block;
+    background-color: red;
+}
+
+.navlinks {
+    display: flex;
+    height: 100%;
+    border: 1px solid red;
+}
+
+header h2 {
+    color: white;
+    margin-top: 40px;
+    font-size: 2rem;
+}
+
+.aboutmebox {
+    width: 60%;
+}
+
+.aboutme {
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    font-size: 1rem;
+}
+
+header {
+    background: none;
+    height: 100vh;
+    padding-left: 50px;
+    align-items: flex-start;
+}
+
+#portfoliobtn {
+    margin-top: 45px;
+    width: 130px;
+    background-color: #08c99f;
+    color: white;
+    border: 1px solid #08c99f;
+    outline: none;
+    padding: 5px 10px;
+    font-size: .8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s ease;
+}
+
+#portfoliobtn:hover {
+    background-color: white;
+    color: #08c99f;
+    border-color: white;
+}
+
+
+.languages {
+    display: flex;
+    width: 600px;
+    margin-top: 10px;
+}
+
+.skills-languages ul {
+    margin-left: 20px;
+}
+
+.intermediate, .learning {
+    margin-left: 50px;
+}
+
+.aboutmemain {
+    display: flex;
+    margin: -80px auto 40px auto;
+    width: 98%;
+    z-index: 99;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px 30px;
+}
+
+.whoami ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+main h2 {
+    margin-top: 40px;
+}
+
+
+.skillset {
+    margin-left: 40px;
+}
