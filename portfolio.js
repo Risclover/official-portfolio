@@ -15,24 +15,6 @@ let portfolioImg = document.getElementsByClassName('portfolio-img');
 let modalImages = document.getElementsByClassName('modalimg');
 
 
-// For however many modals there are...
-for (let i = 0; i < modal.length; i++) {
-    // When a modal button is clicked...
-    btn[i].onclick = function() {
-        // Show its respective modal
-        modal[i].style.display = "block";
-        // Give it its respective image caption
-        captions[i].textContent = portfolioImg[i].dataset.alt;
-        // Display its respective portfolio image
-        modalImages[i].src = portfolioImg[i].dataset.src;
-    }
-
-    // When the respective close button is clicked, hide the modal.
-    span[i].onclick = function() {
-        modal[i].style.display = "none";
-    }
-}
-
 // Modal system ends
 
 
