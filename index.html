@@ -20,8 +20,15 @@
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2b4114baf6.js" crossorigin="anonymous"></script>
 
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
     <!-- Dev Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+    <!-- Material Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
 
 
 </head>
@@ -32,7 +39,7 @@
             <a class="active navlink" href="#">Home</a>
             <a class="navlink" href="#About">About</a>
             <a class="navlink" href="portfolio.html">Portfolio</a>
-            <a class="navlink" href="blogmockup.html">Blog</a>
+            <a class="navlink" href="blog.html">Blog</a>
             <a class="navlink" href="#">Contact</a>
         </div>
     </div>
@@ -46,56 +53,126 @@
         <a href="portfolio.html" id="portfoliobtn">Go to Portfolio <i class="fas fa-caret-right fa-lg"></i></a>
     </header>
     <main>
-        <div class="aboutmemain" id="About">
-            <div class="whoami">
-                <h2>.whoami</h2>
-                <ul>
-                    <li><strong>Name:</strong> Sara Dunlop</li>
-                    <li><strong>Age:</strong> 29</li>
-                    <li><strong>Location:</strong> Northern California, USA</li>
-                    <li><strong>Goal:</strong> Full-Stack Developer</li>
-                </ul>
-            </div>
-            <div class="skillset">
-                <h2>Languages I Speak</h2>
-                <div class="languages">
-                    <div class="skills-languages fluent">
-                        <h4>Fluent</h4>
-                        <ul>
-                            <li>
-                                HTML
-                            </li>
-                            <li>
-                                CSS
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="skills-languages intermediate">
-                        <h4>Intermediate</h4>
-                        <ul>
-                            <li>
-                                JavaScript
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="skills-languages learning">
-                        <h4>Learning</h4>
-                        <ul>
-                            <li>
-                                Ruby
-                            </li>
-                            <li>
-                                PHP
-                            </li>
-                            <li>
-                                SQL
-                            </li>
-                        </ul>
+        <section class="about-section">
+            <h2>Sara's Skills</h2>
+            <hr class="sep-3">
+            <div id="About">
+                <div class="whoami">
+                    <h2>.whoami</h2>
+                    <ul>
+                        <li><strong>Name:</strong> Sara Dunlop</li>
+                        <li><strong>Age:</strong> 29</li>
+                        <li><strong>Location:</strong> Northern California, USA</li>
+                        <li><strong>Goal:</strong> Full-Stack Developer</li>
+                    </ul>
+                </div>
+                <div class="skillset">
+                    <h2>Languages I Speak</h2>
+                    <div class="languages">
+                        <div class="skills-languages fluent">
+                            <h4>Fluent</h4>
+                            <ul>
+                                <li>
+                                    HTML
+                                </li>
+                                <li>
+                                    CSS
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skills-languages intermediate">
+                            <h4>Intermediate</h4>
+                            <ul>
+                                <li>
+                                    JavaScript
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="skills-languages learning">
+                            <h4>Learning</h4>
+                            <ul>
+                                <li>
+                                    Ruby
+                                </li>
+                                <li>
+                                    PHP
+                                </li>
+                                <li>
+                                    SQL
+                                </li>
+                            </ul>
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="blog-section">
+            <h2>Recent Posts</h2>
+            <hr class="sep-3">
+            <div class="blog-section-container">
+                <div class="blogposts">
+
+                    <div class="blogpost-box">
+                        <a href="blog/code_discussion_portfolio_categories.html"><img src="blog/Images/Code Discussion.png" class="blogpost-box-img"></a>
+                        <div class="blogpost-box-content">
+                            <div>
+                                <div class="blogpost-box-head">
+                                    <a href="blog/code_discussion_portfolio_categories.html"><h3 class="blogpost-box-title">Code Discussion: Portfolio Categories</h3></a>
+                                    <div class="blogpost-box-tinydetails">
+                                        <a href="#" class="bloglink">
+                                            <i class="far fa-clock fa-sm bloglink-icon"></i>
+                                            <p class="blogdate">10 February, 2022</p>
+                                        </a>
+                                        <a href="Categories/code_discussion.html" class="bloglink">
+                                            <i class="fas fa-folder fa-sm blogcat bloglink-icon"></i>
+                                            <p class="blogcategory">Code Discussion</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="blogpost-box-description">
+                                    <p>When working on my Portfolio page on this website, I decided to implement a "category" system to help users find projects easily. This is a brief look into how I ultimately figured it out.</p>
+                                </div>
+                            </div>
+                            <div class="blogpost-box-readmore-container">
+                                <a href="blog/code_discussion_portfolio_categories.html" class="blogpost-box-readmore">Read More &nbsp<i class="fas fa-arrow-right fa-xs icon-chev"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="blogpost-box">
+                        <a href="blog/introduction.html"><img src="blog/Images/emma blogs - dark.png" class="blogpost-box-img"></a>
+                        <div class="blogpost-box-content">
+                            <div>
+                                <div class="blogpost-box-head">
+                                    <a href="blog/introduction.html"><h3 class="blogpost-box-title">Introduction (First Blog Post!)</h3></a>
+                                    <div class="blogpost-box-tinydetails">
+                                        <a href="#" class="bloglink">
+                                            <i class="far fa-clock fa-sm bloglink-icon"></i>
+                                            <p class="blogdate">09 February, 2022</p>
+                                        </a>
+                                        <a href="Categories/personal.html" class="bloglink">
+                                            <i class="fas fa-folder fa-sm blogcat bloglink-icon"></i>
+                                            <p class="blogcategory">Personal</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="blogpost-box-description">
+                                    <p>My first blog post, where I introduce myself, my blog, and my programming career! How exciting. 😀</p>
+                                </div>
+                            </div>
+                            <div class="blogpost-box-readmore-container">
+                                <a href="blog/introduction.html" class="blogpost-box-readmore">Read More &nbsp<i class="fas fa-arrow-right fa-xs icon-chev"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Created by <a href="#">Risclover</a></p>

@@ -15,7 +15,9 @@
     <link href="./css/bootstrap.css" rel="stylesheet"> <!-- Bootstrap -->
     <link href="./css/bootstrap-theme.css" rel="stylesheet"> <!-- Bootstrap -->
     <link href="./stylesheets/styles.css" rel="stylesheet"> <!-- Main -->
-    <link href="./stylesheets/blogpost.css" rel="stylesheet"> <!-- Individual -->
+    <link href="./stylesheets/mockup.css" rel="stylesheet"> <!-- Individual -->
+    <link href="./stylesheets/blog-sidebar.css" rel="stylesheet"> <!-- Sidebar -->
+
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2b4114baf6.js" crossorigin="anonymous"></script>
@@ -28,7 +30,7 @@
             <a class="navlink" href="./index.html">Home</a>
             <a class="navlink" href="./index.html#About">About</a>
             <a class="navlink" href="portfolio.html">Portfolio</a>
-            <a class="active navlink" href="blogmockup.html">Blog</a>
+            <a class="navlink" href="blog.html">Blog</a>
             <a class="navlink" href="#">Contact</a>
         </div>
     </div>
@@ -36,7 +38,7 @@
         <h1>Blog Mockup</h1>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
-            <li class="breadcrumb-item"><a href="#">Blog</a></li>
+            <li class="breadcrumb-item"><a href="./blog.html">Blog</a></li>
             <li class="breadcrumb-item active">Blog Mockup</li>
         </ol>
     </header>
@@ -63,7 +65,7 @@
 
     <p>Okay? Okay, cool. So here it goes:</p>
 
-    <h2>I am so fucking smart!</h2>
+    <h4>I am so fucking smart!</h4>
 
     <p>/ end brag</p>
 
@@ -244,69 +246,30 @@ categoryHTML.addEventListener('click', function() {
                     <div class="categoryitems">
                         <ul>
                             <li>   
-                                Projects (<span class="categorycount">30</span>)
-                            </li>
-                            <li id="techstuff">
-                                Tech Stuff (<span class="categorycount" id="techstuffcount"></span>)
-                            </li>
-                            <li>
-                                Work (<span class="categorycount">2</span>)
+                                Personal (<span class="categorycount">1</span>)
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="categories">
                     <h3 class="cattitle">Related/Recent</h3>
-                    <p class="relateditem">Project Breakdown: Magic 8 Ball</p>
-                    <p class="relateditem">Learning localStorage</p>
-                    <p class="relateditem">Should I Move On To Ruby?</p>
+                    <a href="./blog/introduction.html" class="relateditem">Introduction (First Blog Post!)</a>
                 </div>
                 <div class="categories">
                     <h3 class="cattitle">Archives</h3>
                     <div class="categoryitems">
                         <ul>
                             <li>
-                                <a href="#">January 2022</a>
-                            </li>
-                            <li>
-                                December 2021
-                            </li>
-                            <li>
-                                November 2021
-                            </li>
-                            <li>
-                                October 2021
-                            </li>
-                            <li>
-                                August 2021
-                            </li>
-                            <li>
-                                July 2021
-                            </li>
-                            <li>
-                                June 2021
-                            </li>
-                            <li>
-                                May 2021
-                            </li>
-                            <li>
-                                April 2021
-                            </li>
-                            <li>
-                                March 2021
+                                <a href="#">January 2022 (<span class="categorycount">1</span>)</a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="categories">
                     <h3 class="cattitle">Tags</h3>
-                    <a href="#" class="blogtag">Testing</a>
-                    <a href="#" class="blogtag">Testing More</a>
-                    <a href="#" class="blogtag">Test</a>
-                    <a href="#" class="blogtag">Blogtag</a>
-                    <a href="#" class="blogtag">Toby</a>
-                    <a href="#" class="blogtag">Cigarettes</a>
-                    <a href="#" class="blogtag">SaraElizabeth</a>
+                    <a href="#" class="blogtag">Personal</a>
+                    <a href="#" class="blogtag">Programming Journey</a>
+                    <a href="#" class="blogtag">Learning</a>
                 </div>
             </div>
         </div>

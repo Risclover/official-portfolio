@@ -23,7 +23,7 @@
     display: flex;
     align-items: center;
     color: #333333;
-    margin-top: 10px;
+    margin-top: 5px;
 
 }
 
@@ -54,6 +54,7 @@
     border-radius: 15px;
     height: auto;
     margin: 0 auto;
+    border: 1px solid black;
 }
 
 /* Tag bar */
@@ -179,17 +180,17 @@
 
 
 .blogmain {
-    padding: 0 10px;
+    padding: 0 10px 0 5px;
 }
 
 
 .blogtext {
-    margin: 30px 0 40px 0;
+    margin: 15px 0 40px 0;
 }
 
 .blogtext p {
     margin: 15px 0;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .blogtitle {
@@ -294,8 +295,8 @@ input {
 .wordcode{
     background-color:rgb(37, 40, 49);
     color: white;
-    border-radius: 5px;
-    padding: 4px 5px;
+    border-radius: 3px;
+    padding: 3px 6px;
     font-size: .8em;
 }
 
@@ -303,8 +304,9 @@ input {
     color: white;
     line-height: 1.5;
     background-color:rgb(37, 40, 49);
-    padding: 5px 15px;
-    font-size: .85em;
+    padding: 12px 15px;
+    font-size: .7em;
+    border-radius: 0px;
     width: auto;
     display: block;
     border-left: 5px solid #3c467a;
@@ -339,6 +341,16 @@ input {
 
 .comment {
     color: gray;
+}
+
+.disabled {
+    color: lightgrey;
+    cursor: none;
+}
+
+.disabled:hover {
+    color: lightgrey;
+    cursor:none;
 }
 
 /* Small mobile view */

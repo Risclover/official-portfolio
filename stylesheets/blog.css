@@ -1,0 +1,153 @@
+body {
+    background-color: #fcfcfc;
+}
+
+ul, li {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ol {
+    margin-top: 10px;
+}
+
+.active {
+    color: #08c99f;
+    cursor: default;
+}
+
+.tagactive {
+    color:white;
+    background-color:rgb(8, 201, 159);
+    border: 1px solid rgb(8, 201, 159);
+}
+
+
+.pagecontent {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 40px auto;
+}
+
+.blogpost-container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 0;
+    width: 608px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.blogpost {
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+
+.blogpost-header, .blogpost-description, .blogpost-readmore {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blogpost-image {
+    width: 100%;
+    border-radius: 0;
+}
+
+.blogpost-image:hover {
+    opacity: 1;
+}
+
+
+.blogpost-image .blogpost-overlay {
+    background: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+	-webkit-transition: all 0.8s ease;
+	-moz-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+
+  }
+
+
+  .blogpost-image:hover .blogpost-overlay{
+    opacity: 1;
+  }
+.blogcat {
+    margin-left: 10px;
+}
+
+.tinydetails {
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-top: 5px;
+
+}
+
+.tinydetails p {
+    font-size: .9rem;
+}
+
+.blogdate, .blogcategory {
+    margin: 0 5px;
+}
+
+
+.bloglink {
+    text-decoration: none;
+    color: #353535;
+    display: flex;
+    align-items: center;
+}
+
+.bloglink:hover {
+    color:rgb(8, 201, 159);
+}
+
+.pag {
+    border: 1px solid red;
+}
+
+.blogpost-description {
+    display: inline-block;
+    margin: 20px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.tagbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    align-items: center;
+    background-color: #ebeaea;
+}
+
+.maintag {
+    text-decoration: none;
+    color: #000000;
+    background-color: #fdfdfd;
+    padding: 0 8px;
+    border: 1px solid #fdfdfd;
+    margin: 3px 1px;
+    display: inline-block;
+    font-size: .75rem;
+    transition: .4s ease;
+}
+
+.maintag:hover {
+    background-color: rgb(8, 201, 159);
+    border: 1px solid rgb(8, 201, 159);
+    color: #fdfdfd !important;
+}

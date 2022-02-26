@@ -1,6 +1,4 @@
-*:focus {
-  outline: 1px solid red;
-}
+
 
 main {
   display: flex;
