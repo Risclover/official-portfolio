@@ -171,13 +171,17 @@ hr.sep-3 {
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
+.blogpost-box-title {
+    font-size: 1.1rem;
+}
+
 .blogpost-box-title:hover {
     color: #08c99f;   
 }
 
 .blogpost-box-img {
 	width: 100%;
-
+    height: 225px;
 }
 
 .blogpost-box-head {

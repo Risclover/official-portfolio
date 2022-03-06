@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Great+Vibes&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Marck+Script&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Norican&family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 
     <!-- CSS Stylesheets -->
-    <link href="./css/bootstrap.css" rel="stylesheet"> <!-- Bootstrap -->
-    <link href="./css/bootstrap-theme.css" rel="stylesheet"> <!-- Bootstrap -->
-    <link href="./stylesheets/styles.css" rel="stylesheet"> <!-- Main -->
-    <link href="./stylesheets/home.css" rel="stylesheet"> <!-- Individual -->
+    <link href="stylesheets/bootstrap/bootstrap.css" rel="stylesheet"> <!-- Bootstrap -->
+    <link href="stylesheets/bootstrap/bootstrap-theme.css" rel="stylesheet"> <!-- Bootstrap -->
+    <link href="stylesheets/styles.css" rel="stylesheet"> <!-- Main -->
+    <link href="stylesheets/home.css" rel="stylesheet"> <!-- Individual -->
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/2b4114baf6.js" crossorigin="anonymous"></script>
@@ -38,8 +38,8 @@
         <div id="navbar-right">
             <a class="active navlink" href="#">Home</a>
             <a class="navlink" href="#About">About</a>
-            <a class="navlink" href="portfolio.html">Portfolio</a>
-            <a class="navlink" href="blog.html">Blog</a>
+            <a class="navlink" href="main pages/portfolio.html">Portfolio</a>
+            <a class="navlink" href="main pages/blog.html">Blog</a>
             <a class="navlink" href="#">Contact</a>
         </div>
     </div>
@@ -50,7 +50,7 @@
                 Based in California, I'm 29-year-old with passions for gaming, writing, learning, and coding. After spending my entire life at the keyboard, I realized that programming is what I want to do for the rest of my life, and began treating it professionally about 6 months ago. This website serves as a hub for recent projects, and you can find personal pieces about my projects and my learning processes in my blog. I'm intelligent and friendly, and you won't regret making me the next addition to your team!
             </p>
         </div>
-        <a href="portfolio.html" id="portfoliobtn">Go to Portfolio <i class="fas fa-caret-right fa-lg"></i></a>
+        <a href="main pages/portfolio.html" id="portfoliobtn">Go to Portfolio <i class="fas fa-caret-right fa-lg"></i></a>
     </header>
     <main>
         <section class="about-section">
@@ -115,17 +115,46 @@
                 <div class="blogposts">
 
                     <div class="blogpost-box">
-                        <a href="blog/code_discussion_portfolio_categories.html"><img src="blog/Images/Code Discussion.png" class="blogpost-box-img"></a>
+                        <a href="blog/Posts/project_breakdown_number_game.html"><img src="images/portfolio_images/Number-Game.png" class="blogpost-box-img"></a>
                         <div class="blogpost-box-content">
                             <div>
                                 <div class="blogpost-box-head">
-                                    <a href="blog/code_discussion_portfolio_categories.html"><h3 class="blogpost-box-title">Code Discussion: Portfolio Categories</h3></a>
+                                    <a href="blog/Posts/project_breakdown_number_game.html"><h3 class="blogpost-box-title">Project Breakdown: The Number Game</h3></a>
+                                    <div class="blogpost-box-tinydetails">
+                                        <a href="#" class="bloglink">
+                                            <i class="far fa-clock fa-sm bloglink-icon"></i>
+                                            <p class="blogdate">26 February, 2022</p>
+                                        </a>
+                                        <a href="#" class="bloglink">
+                                            <i class="fas fa-folder fa-sm blogcat bloglink-icon"></i>
+                                            <p class="blogcategory">Project Breakdown</p>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="blogpost-box-description">
+                                    <p>The first of many "Project Breakdowns" to come. In the first, I discuss my project The Number Game, and refactor the vanilla JavaScript code into one that is jQuery-heavy.</p>
+                                </div>
+                            </div>
+                            <div class="blogpost-box-readmore-container">
+                                <a href="blog/Posts/project_breakdown_number_game.html" class="blogpost-box-readmore">Read More &nbsp<i class="fas fa-arrow-right fa-xs icon-chev"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="blogpost-box">
+                        <a href="blog/Posts/code_discussion_portfolio_categories.html"><img src="blog/Images/Headers/Code Discussion.png" class="blogpost-box-img"></a>
+                        <div class="blogpost-box-content">
+                            <div>
+                                <div class="blogpost-box-head">
+                                    <a href="blog/Posts/code_discussion_portfolio_categories.html"><h3 class="blogpost-box-title">Code Discussion: Portfolio Categories</h3></a>
                                     <div class="blogpost-box-tinydetails">
                                         <a href="#" class="bloglink">
                                             <i class="far fa-clock fa-sm bloglink-icon"></i>
                                             <p class="blogdate">10 February, 2022</p>
                                         </a>
-                                        <a href="Categories/code_discussion.html" class="bloglink">
+                                        <a href="blog/Categories/code_discussion.html" class="bloglink">
                                             <i class="fas fa-folder fa-sm blogcat bloglink-icon"></i>
                                             <p class="blogcategory">Code Discussion</p>
                                         </a>
@@ -136,7 +165,7 @@
                                 </div>
                             </div>
                             <div class="blogpost-box-readmore-container">
-                                <a href="blog/code_discussion_portfolio_categories.html" class="blogpost-box-readmore">Read More &nbsp<i class="fas fa-arrow-right fa-xs icon-chev"></i>
+                                <a href="blog/Posts/code_discussion_portfolio_categories.html" class="blogpost-box-readmore">Read More &nbsp<i class="fas fa-arrow-right fa-xs icon-chev"></i>
                                 </a>
                             </div>
 
@@ -144,17 +173,17 @@
                     </div>
 
                     <div class="blogpost-box">
-                        <a href="blog/introduction.html"><img src="blog/Images/emma blogs - dark.png" class="blogpost-box-img"></a>
+                        <a href="blog/Posts/introduction.html"><img src="blog/Images/Headers/emma blogs - dark.png" class="blogpost-box-img"></a>
                         <div class="blogpost-box-content">
                             <div>
                                 <div class="blogpost-box-head">
-                                    <a href="blog/introduction.html"><h3 class="blogpost-box-title">Introduction (First Blog Post!)</h3></a>
+                                    <a href="blog/Posts/introduction.html"><h3 class="blogpost-box-title">Introduction (First Blog Post!)</h3></a>
                                     <div class="blogpost-box-tinydetails">
                                         <a href="#" class="bloglink">
                                             <i class="far fa-clock fa-sm bloglink-icon"></i>
                                             <p class="blogdate">09 February, 2022</p>
                                         </a>
-                                        <a href="Categories/personal.html" class="bloglink">
+                                        <a href="blog/Categories/personal.html" class="bloglink">
                                             <i class="fas fa-folder fa-sm blogcat bloglink-icon"></i>
                                             <p class="blogcategory">Personal</p>
                                         </a>
@@ -165,7 +194,7 @@
                                 </div>
                             </div>
                             <div class="blogpost-box-readmore-container">
-                                <a href="blog/introduction.html" class="blogpost-box-readmore">Read More &nbsp<i class="fas fa-arrow-right fa-xs icon-chev"></i>
+                                <a href="blog/Posts/introduction.html" class="blogpost-box-readmore">Read More &nbsp<i class="fas fa-arrow-right fa-xs icon-chev"></i>
                                 </a>
                             </div>
                         </div>
@@ -181,6 +210,6 @@
 
 
     <!-- JS Scripts -->
-    <script src="script.js"></script>
+    <script src="js files/script.js"></script>
 </body>
 </html>

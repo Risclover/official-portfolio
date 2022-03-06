@@ -59,6 +59,7 @@ main {
     max-width: 425px;
     margin: 10px 15px;
     overflow: hidden;
+    height: 275px;
     transition: .5s ease;
   }
   
