@@ -61,17 +61,57 @@ p, blockquote, ol, ul, li {
     padding-right: 10px;
 }
 
-.blogpost-image {
+.blogpost-content-image {
+    position: relative;
     width: 100%;
-    border-radius: 0;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px 5px;
+    background-color: white;
 }
 
-.blogpost-image:hover {
-    opacity: 1;
+.blogpost-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.blogpost-image img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.blogpost-image:after {
+    content: '\A';
+    position: absolute;
+    width: 100%; height:100%;
+    top:0; left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    cursor: pointer;
+}
+
+.blogpost-image:hover:after {
+    opacity: 0.8;
+}
+
+.img-ul {
+    list-style-type: none;
+    margin: 0 !important;
+    background-color: black;
+    padding: 0 !important;
+}
+
+.img-ul li {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 
-.blogpost-image .blogpost-overlay {
+.blogpost-overlay {
     background: rgba(0,0,0,0.7);
     height: 100%;
     width: 100%;
@@ -94,40 +134,12 @@ p, blockquote, ol, ul, li {
     margin-left: 10px;
 }
 
-.tinydetails {
-    display: flex;
-    align-items: center;
-    color: #333333;
-    margin-top: 0px;
-
-}
-
-.tinydetails p {
-    font-size: .9rem;
-}
-
-.tinydetails a {
-    display: flex;
-    align-items: center;
-}
-
 .blogdate, .blogcategory {
     margin: 0 5px;
 }
 
 .blogtitle {
     font-size: 1.5rem;
-}
-
-.bloglink {
-    text-decoration: none;
-    color: #353535;
-    display: flex;
-    align-items: center;
-}
-
-.bloglink:hover {
-    color:rgb(8, 201, 159);
 }
 
 .pag {
@@ -184,9 +196,6 @@ h4 {
     margin-top: 30px;
 }
 
-svg {
-    margin-top: 10px;
-}
 
 /* Containers */
 
@@ -212,7 +221,7 @@ svg {
 
 .tinydetails {
     display: flex;
-    align-items: center;
+    align-content: center;
     color: #333333;
     margin-top: 0px;
 
@@ -414,7 +423,7 @@ svg {
 }
 
 .comment {
-    color: rgb(255, 100, 190);
+    color: #f19c1c;
 }
 
 .disabled {

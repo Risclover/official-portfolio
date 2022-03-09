@@ -1,7 +1,7 @@
 body {
     background: rgb(7, 29, 58);  /* fallback colour. Make sure this is just one solid colour. */
     background: -webkit-linear-gradient(120deg, #2a9688c2 0%, rgba(1, 15, 48, 0.815) 90%), url("../Headers/fabio-oyXis2kALVg-unsplash.jpg");
-    background: linear-gradient(120deg, #2a9688 0%, rgba(1, 15, 48, 0.809) 90%), url("../Headers/pixelated.jpg"); /* The least supported option. */
+    background: linear-gradient(120deg, #2a9688 0%, rgba(1, 15, 48, 0.809) 90%), url("../images/pixelated.jpg"); /* The least supported option. */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,6 +13,17 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#about-skills {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.abouticons {
+    font-size: 4rem;
+    margin: 10px;
 }
 
 section {
@@ -203,11 +214,13 @@ hr.sep-3 {
 }
 
 .blogpost-box-tinydetails {
-	display: flex;
+    display: flex;
+    align-items: center;
+    color: #333333;
+    margin-top: 0px;
     font-size: .8rem;
-    margin-top: 0;
-    margin-bottom: 10px;
 }
+
 
 .blogpost-box-tinydetails a {
     display: flex;
@@ -223,6 +236,8 @@ hr.sep-3 {
 
 .bloglink {
     color: #797979;
+    display: flex;
+    align-items: center;
 }
 
 .bloglink:hover {
